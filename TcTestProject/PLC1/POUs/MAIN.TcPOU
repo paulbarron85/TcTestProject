@@ -3,14 +3,17 @@
   <POU Name="MAIN" Id="{6f1433b0-af06-4830-84af-256fba9d2b49}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	nCounter : int := 0;
+	nCounter : INT := 0;
+	nCounter2 : INT := 0;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[nCounter:= nCounter + 1;]]></ST>
+      <ST><![CDATA[nCounter:= nCounter + 1;
+nCounter:= nCounter + 10;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="8" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
