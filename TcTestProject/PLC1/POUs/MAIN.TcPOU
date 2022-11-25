@@ -11,9 +11,5 @@ END_VAR
       <ST><![CDATA[nCounter:= nCounter + 1;
 nCounter3:= nCounter + 10;]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
-      <LineId Id="8" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
